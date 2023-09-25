@@ -11,7 +11,6 @@ body {
     background-color: #ffffff;
     width: 1200px;
     margin: 0 auto;
-    background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -46,6 +45,7 @@ body {
     line-height: 55px;
     color: #000000;
     margin: 0 0 28px 0;
+    text-shadow: 4px 4px 2px #bdbdbd;
 }
 
 .my-descr {
@@ -176,12 +176,13 @@ body {
 .my-photo {
     padding: 0 4px 0 0;
     margin-top: 40px;
+    width: 100%;
 }
 
 .contacts-container,
 .tech-skills,
 .soft-skills {
-    margin: 48px 0 0 40px;
+    margin: 10px 0 26px 40px;
 }
 
 .contacts-type {
@@ -202,7 +203,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #161D2A;
+    color: #2979FF;
 }
 
 .contacts-email {
